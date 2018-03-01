@@ -59,3 +59,5 @@ scalacOptions ++= Seq(
 )
 
 scalacOptions in Test ++= Seq("-Yrangepos")
+
+wartremoverWarnings in (Compile, compile) ++= Warts.unsafe
