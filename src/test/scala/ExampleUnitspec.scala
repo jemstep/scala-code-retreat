@@ -1,9 +1,13 @@
 import org.specs2._
+import org.specs2.mutable.Specification
 
-class ExampleUnitSpec extends Specification { def is = s2"""
+class ExampleUnitSpec extends Specification {
 
- This is my first specification
-   it is working                 $ok
-   really working!               $ok
-                                 """
+  "Lists" should {
+
+    "sum correctly" in {
+      List.empty[Int].sum must_== 0
+    }
+
+  }
 }
