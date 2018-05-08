@@ -4,7 +4,7 @@ version := "0.1"
 
 scalaVersion := "2.12.4"
 
-val specs2Version = "4.0.2"
+val specs2Version = "4.2.0"
 val specs2Deps = Seq(
   "org.specs2" %% "specs2-core" % specs2Version % "test",
   "org.specs2" %% "specs2-scalacheck" % specs2Version % "test")
