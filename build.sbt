@@ -2,7 +2,7 @@ name := "code-retreat"
 
 version := "0.1"
 
-scalaVersion := "2.12.4"
+scalaVersion := "2.12.6"
 
 val specs2Version = "4.2.0"
 val specs2Deps = Seq(
