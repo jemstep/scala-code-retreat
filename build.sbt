@@ -1,4 +1,4 @@
-name := "code-retreat"
+name := "scala-code-retreat"
 
 version := "0.1"
 
