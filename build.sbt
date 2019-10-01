@@ -9,7 +9,7 @@ val specs2Deps = Seq(
   "org.specs2" %% "specs2-core" % specs2Version % "test",
   "org.specs2" %% "specs2-scalacheck" % specs2Version % "test")
 
-libraryDependencies ++= Seq("org.typelevel" %% "cats-core" % "1.6.1") ++ specs2Deps
+libraryDependencies ++= Seq("org.typelevel" %% "cats-core" % "2.0.0") ++ specs2Deps
 
 // https://tpolecat.github.io/2017/04/25/scalac-flags.html
 scalacOptions ++= Seq(
